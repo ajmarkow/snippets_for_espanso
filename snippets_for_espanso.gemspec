@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'snippets_for_espanso'
-  s.version     = '0.1.0'
+  s.version     = '0.1.1'
   s.licenses    = ['MIT']
   s.summary     = "Takes strings & writes YAML to a file in the format for Espanso Text Expander. "
   s.description = "Gem with methods to create simple snippets, or more complex snippets which invoke a form on users computer."
