@@ -1,4 +1,5 @@
-# rails_app
+# Snippets For Espanso Gem 
+![Gem](https://img.shields.io/gem/v/snippets_for_espanso?style=for-the-badge)
 
 ## Table of Contents
 
@@ -9,37 +10,23 @@
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+I love the snippet program Espanso.  It's an awesome piece of Free Open Source Software.  But I became frustrated with typos when I went to add snippets to the config file, which is .yml format.  I wrote these methods to simplify adding snippets and avoid those all too common syntax errors.
 
 ## Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
+Follow the install instructions below to add to your project or install on your computer.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
+- In a Gemfile
 ```
-Give the example
+gem 'snippets_for_espanso', '~> 0.1.2'
 ```
-
-And repeat
-
+- Install Just The Gem
 ```
-until finished
+gem install snippets_for_espanso
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
 
 ## Usage <a name = "usage"></a>
 
