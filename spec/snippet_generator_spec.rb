@@ -1,9 +1,13 @@
 require 'simplecov'
 SimpleCov.start
-require 'snippet_generator.rb'
 
-NEW_LINE="\n"
-  QUOTE = '"'
+require 'simplecov-cobertura'
+
+SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
+
+require 'codecov'
+
+require 'snippet_generator.rb'
 
 describe ('initialize_espanso_yml') do 
  it('writes matches and a NEWLINE character') do 
