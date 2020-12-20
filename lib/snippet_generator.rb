@@ -58,6 +58,13 @@ end
 # Creates a snippet with large text box
 
       def textarea_snippet_export(file_to_write)
-        File.open(file_to_write,"a") { |file| file.write('  - trigger: '+'":'+trigger+QUOTE+NEW_LINE) }
-        File.open(file_to_write,"a") { |file| file.write('    replace: '+QUOTE+replacement+QUOTE+NEW_LINE) }
+        File.open(file_to_write,"a") { |file| file.write('  - trigger: '+QUOTE+':'+form_trigger+QUOTE+NEW_LINE) }
+        File.open(file_to_write,"a") { |file| file.write('    form: |'+NEW_LINE)}
+        File.open(file_to_write,"a") { |file| file.write('      '+form_statement+NEW_LINE)}
+        File.open(file_to_write,"a") { |file| file.write('        '+field_names+NEW_LINE) }
+        File.open(file_to_write,"a") { |file| file.write('          '+"multiline: true"+NEW_LINE) }
       end
+
+## Form Generator Method. Will make form that has, .
+## Takes a few arrays as arguments.
+## Form Fields: Just string in array, but in form context represented as {{Form Field Name}}
