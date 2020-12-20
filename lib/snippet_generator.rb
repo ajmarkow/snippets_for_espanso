@@ -18,15 +18,14 @@ NEW_LINE="\n"
 
 # Create a YAML Comment to separate sections of snippet file.
 
-def heading_snippet_export(file_to_write)
-  name = "THIS IS AN AWESOME SECTION"
-  File.open(file_to_write,"a") { |file| file.write("#"+ name) }     
+def heading_snippet_export(file_to_write,heading)
+  File.open(file_to_write,"a") { |file| file.write("# "+ heading+NEW_LINE) }     
 end
 
 # Any input fields should be entered with double brackets around them when passed in as form_statement
 # For example "AJ likes coding in {{language}} and using {{editor}} to write code."
 
-def input_form_snippet_export(form_trigger,form_statement,file_to_write)
+def input_form_snippet_export(file_to_write, form_trigger,form_statement)
   File.open(file_to_write,"a") { |file| file.write('  - trigger: '+QUOTE+':'+form_trigger+QUOTE+NEW_LINE) }
   File.open(file_to_write,"a") { |file| file.write('    form: |'+NEW_LINE)}
   File.open(file_to_write,"a") { |file| file.write('      '+form_statement+NEW_LINE)}

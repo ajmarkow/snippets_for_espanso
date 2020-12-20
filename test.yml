@@ -1,3 +1,7 @@
 matches:
   - trigger: ":hello"
     replace: "whats up"
+# THIS IS A GREAT SECTION
+  - trigger: ":aj"
+    form: |
+      aj is {{adjective}}
