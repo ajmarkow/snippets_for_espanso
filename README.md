@@ -1,5 +1,5 @@
 # Snippets For Espanso Gem 
-![Gem](https://img.shields.io/gem/v/snippets_for_espanso?style=for-the-badge) ![Gem](https://img.shields.io/gem/dt/snippets_for_espanso?style=for-the-badge) ![Code Climate coverage](https://img.shields.io/codeclimate/coverage/ajmarkow/snippets_for_espanso?style=for-the-badge)
+![Gem](https://img.shields.io/gem/v/snippets_for_espanso?style=for-the-badge) ![Gem](https://img.shields.io/gem/dt/snippets_for_espanso?style=for-the-badge) ![Codecov](https://img.shields.io/codecov/c/github/ajmarkow/snippets_for_espanso?style=for-the-badge&token=MWR13W9I4F)
 ## Table of Contents
 
 - [About](#about)
