@@ -1,3 +1,5 @@
+require 'simplecov'
+SimpleCov.start
 require 'snippet_generator.rb'
 
 NEW_LINE="\n"
